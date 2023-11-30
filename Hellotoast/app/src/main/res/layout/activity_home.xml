@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="0dp"
+    android:layout_marginEnd="0dp"
+    android:background="@drawable/animation_list"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainLauncherSplashLogo">
+
+    <ImageView
+        android:id="@+id/arrasynet_logo_transparant_2"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:src="@drawable/hitam_bentuk_elegan_toko_pakaian_logo" />
+
+    <Button
+        android:id="@+id/btnHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/button_label_pro_hello_toast"
+        android:backgroundTint="@color/colorButton"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/button_label_pro_count"
+        android:backgroundTint="@color/colorButton"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnSianida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/button_label_pro_sianida"
+        android:backgroundTint="@color/colorButton"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnTwoActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/button_label_pro_two_activity"
+        android:backgroundTint="@color/colorButton"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:onClick="createAlarm"
+        android:text="@string/button_label_pro_set_alarm"
+        android:backgroundTint="@color/colorButton"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/button_label_pro_maps"
+        android:backgroundTint="@color/colorButton"/>
+</LinearLayout>
